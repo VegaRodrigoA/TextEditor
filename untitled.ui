@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>893</width>
+    <height>797</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>861</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>gggggvfd</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QPlainTextEdit" name="plainTextEdit">
+      <property name="font">
+       <font>
+        <family>FreeMono</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>893</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>Archivo</string>
+    </property>
+    <addaction name="actionAbrir"/>
+    <addaction name="actionCerrar"/>
+    <addaction name="actionGuardar"/>
+   </widget>
+   <widget class="QMenu" name="menuTama_o">
+    <property name="title">
+     <string>Tamaño</string>
+    </property>
+    <addaction name="action12"/>
+    <addaction name="action15"/>
+    <addaction name="action20"/>
+    <addaction name="action70"/>
+    <addaction name="action30"/>
+    <addaction name="action35"/>
+    <addaction name="action40"/>
+    <addaction name="action45"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuTama_o"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionAbrir">
+   <property name="text">
+    <string>Abrir</string>
+   </property>
+  </action>
+  <action name="actionCerrar">
+   <property name="text">
+    <string>Cerrar</string>
+   </property>
+  </action>
+  <action name="actionGuardar">
+   <property name="text">
+    <string>Guardar</string>
+   </property>
+  </action>
+  <action name="action12">
+   <property name="text">
+    <string>12</string>
+   </property>
+  </action>
+  <action name="action15">
+   <property name="text">
+    <string>15</string>
+   </property>
+  </action>
+  <action name="action20">
+   <property name="text">
+    <string>20</string>
+   </property>
+  </action>
+  <action name="action70">
+   <property name="text">
+    <string>25</string>
+   </property>
+  </action>
+  <action name="action30">
+   <property name="text">
+    <string>30</string>
+   </property>
+  </action>
+  <action name="action35">
+   <property name="text">
+    <string>35</string>
+   </property>
+  </action>
+  <action name="action40">
+   <property name="text">
+    <string>40</string>
+   </property>
+  </action>
+  <action name="action45">
+   <property name="text">
+    <string>45</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
